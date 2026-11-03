@@ -1,0 +1,116 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f6ff;
+    color: #333;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #7952b3;
+    margin: 0;
+}
+
+.navbar span {
+    color: #e6a4c8;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Home section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #eee7ff;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero h1 span {
+    color: #7952b3;
+}
+
+.hero h2 {
+    color: #7952b3;
+}
+
+.welcome {
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #7952b3;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+/* Common sections */
+.section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section h2 {
+    color: #7952b3;
+    font-size: 30px;
+}
+
+/* Skills */
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Projects */
+.project-card {
+    background-color: white;
+    padding: 25px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #7952b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
